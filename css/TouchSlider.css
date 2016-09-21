@@ -1,0 +1,65 @@
+.slider {
+	width: 650px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.blank,
+.xia,
+.img {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.blank{display: none;}
+.banner .slider:hover .blank{display: block;}
+.blank li {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: 50px;
+	background-color: rgba(200, 200, 200, .8);
+	line-height: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+.blank .pre {
+	left: 0;
+}
+
+.blank .next {
+	right: 0;
+}
+
+.img {
+	width: 99999999px;
+	position: relative;
+}
+
+.img li {
+	float: left;
+}
+.img li img{width: 100%;height: auto;}
+.xia {
+	position: absolute;
+	bottom: 10px;
+	left: 43%;
+}
+
+.xia li {
+	cursor: pointer;
+	width: 15px;
+	text-align: center;
+	line-height: 15px;
+	border-radius: 50%;
+	background-color: #777;
+	color: #fff;
+	display: inline-block;
+}
+
+.xia li.active {
+	background-color: #f50;
+}

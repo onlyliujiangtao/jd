@@ -1,0 +1,392 @@
+.top {
+	background-color: rgb(241, 241, 241);
+	line-height: 30px;
+	height: 30px;
+	width: 100%;
+	position: relative;
+}
+
+.nav {
+	float: right;
+	text-align: right;
+}
+
+.nav>li {
+	display: inline-block;
+	position: relative;
+	padding: 0 10px;
+}
+
+.nav .item a {
+	width: 100%;
+}
+
+.phone {
+	float: left;
+	margin-top: 6px;
+	margin-right: 3px;
+	width: 13px;
+	height: 18px;
+	background-image: url(../img/jd_bg01.png);
+	background-position: top left;
+	display: inline-block;
+}
+
+.add li[class="item"]:hover {
+	background-color: #f0f0f0;
+	color: rgb(200, 22, 35);
+}
+
+#addrass {
+	float: left;
+	font-weight: normal;
+	font-size: 12px;
+	color: #777;
+	width: 100px;
+	text-align: center;
+}
+
+.hover {
+	/*border-left: 1px solid #eee;
+	border-right: 1px solid #eee;*/
+	background-color: #fff;
+}
+
+.add {
+	background-color: #fff;
+	display: none;
+	border: 1px solid #eee;
+	border-top-width: 0;
+	position: absolute;
+	width: 330px;
+	top: 30px;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.add .item {
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px 10px;
+	width: 42px;
+	height: 25px;
+	display: inline-block;
+}
+
+.add .active {
+	background-color: rgb(200, 22, 35);
+	color: #fff;
+}
+
+
+/*二级导航*/
+
+.snav {
+	position: absolute;
+	top: 30px;
+	/*left: -1px;*/
+	display: none;
+}
+
+.snav a:hover {
+	color: rgb(200, 22, 35);
+}
+
+.nav>li:hover .snav {
+	display: block;
+}
+
+.snav {
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #eee;
+	border-top-width: 0;
+}
+
+.snav .wrap {
+	width: 250px;
+}
+
+.spic {
+	width: 60px;
+	height: auto;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.snav .uu {
+	float: left;
+	width: 170px;
+	margin: 0;
+}
+
+.snav .uu h3 {
+	line-height: 20px;
+	margin-left: 10px;
+	color: #777;
+}
+
+.snav .uu li {
+	display: inline-block;
+	margin: 0px 10px;
+	line-height: 20px;
+}
+
+.snav .uuu {
+	width: 370px;
+	margin: 20px 0px;
+	border-right: 1px solid #eee;
+}
+
+.snav .uuu h3 {
+	line-height: 20px;
+	margin-left: 10px;
+	color: #777;
+}
+
+.snav .uuu li {
+	width: 78px;
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 20px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+.sousuo {
+	margin-top: 25px;
+	margin-left: 85px;
+}
+
+.text {
+	margin-left: 85px;
+	margin-top: 3px;
+}
+
+.text a {
+	margin: 0 2px;
+}
+
+#search {
+	padding-left: 3px;
+	font-size: 16px;
+	width: 455px;
+	line-height: 35px;
+	border: 2px solid rgb(182, 29, 29);
+	margin-right: -4px;
+	outline: none;
+}
+
+#sear {
+	font-size: 16px;
+	color: #fff;
+	line-height: 39px;
+	width: 85px;
+	text-align: center;
+	background-color: rgb(182, 29, 29);
+	border: none;
+}
+
+.goodscar {
+	margin-top: 25px;
+	margin-left: 105px;
+	border: 1px solid #ddd;
+	background-color: #f0f0f0;
+	width: 140px;
+	line-height: 39px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#goods {
+	width: 18px;
+	height: 19px;
+	background-image: url(../img/jd_bg01.png);
+	background-position:left 107px;
+	display: inline-block;
+}
+
+.goodscarHover {
+	border-bottom-width: 0;
+	background-color: #fff;
+}
+.arrow1{
+	font-family: simsun;
+}
+.hhh {
+	height: 10px;
+	width: 138px;
+	background-color: #fff;
+	position: absolute;
+	top: 90px;
+	z-index: 1;
+	display: none;
+}
+
+.cars {
+	position: relative;
+}
+
+.car {
+	position: absolute;
+	top: 1px;
+	right: 0px;
+	width: 310px;
+	display: none;
+	box-shadow: 0px 0px 3px #aaa;
+}
+
+.goodscar:hover .car,
+.goodscar:hover .hhh {
+	display: block;
+}
+
+.banner {
+	margin-top: 40px;
+}
+
+.center {
+	width: 800px;
+	margin: 0 280px;
+}
+
+.nav-center li {
+	font-size: 16px;
+	float: left;
+	margin: 0 20px;
+	font-weight: 600;
+}
+
+.nav-left {
+	margin-top: -45px;
+	background-color: rgb(200, 22, 35);
+}
+
+.nav-left a {
+	color: #fff;
+}
+
+.nav-left li {
+	color: #fff;
+	padding-left: 10px;
+	line-height: 33px;
+	cursor: pointer;
+	border-left: 1px solid rgb(200, 22, 35);
+}
+
+.nav-left li.active {
+	background-color: rgb(247, 247, 247);
+	color: rgb(182, 29, 29);
+}
+
+.nav-left li span {
+	float: right;
+	margin-right: 20px;
+	margin-top: 8px;
+	display: inline-block;
+	top: 11px;
+	right: 10px;
+	width: 7px;
+	height: 13px;
+	overflow: hidden;
+	font: 400 13px/13px simsun;
+	color: #fff;
+}
+
+.slider-right {
+	border: 1px solid #eee;
+}
+
+.slider-right h3 {
+	margin-top: 10px;
+}
+
+.slider-right>a {
+	line-height: 28px;
+}
+
+.kuaijei {
+	width: 100%;
+	border-color: #eee;
+	border: 0px solid #eee;
+}
+
+.kuaijei tr {
+	width: 100%;
+}
+
+.kuaijei td {
+	width: 25%;
+	text-align: center;
+	border-width: 0;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+}
+
+.kuaijei td:first-child {
+	border-left-width: 0;
+}
+
+.kuaijei td span {
+	margin-top: 10px;
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.hiden {
+	padding: 20px;
+	width: 1010px;
+	position: absolute;
+	top: 186px;
+	left: 271px;
+	background-color: rgb(247, 247, 247);
+	height: 495px;
+}
+
+
+/* 右侧区开始 */
+
+.hiden_right {
+	width: 167px;
+	height: 445px;
+	/* background:red; */
+	float: right;
+}
+
+.hiden_right ul.hid_r_top {
+	width: 167px;
+	overflow: hidden;
+	margin-bottom: 9px;
+}
+
+.hiden_right ul.hid_r_top li {
+	width: 83px;
+	height: 35px;
+	overflow: hidden;
+	margin-bottom: 1px;
+	float: left;
+}
+
+.hiden_right ul.hid_r_top li a {
+	display: block;
+	width: 83px;
+	height: 35px;
+	overflow: hidden;
+}
+
+.hiden_right ul.hid_r_top li a img {
+	width: 83px;
+	height: 35px;
+}
+
+
+/* 右侧区结束 */
